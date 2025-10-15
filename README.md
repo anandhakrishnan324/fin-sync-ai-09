@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
 
-## Project info
+Fin-Sync AI: Your Intelligent Expense Tracker
+Fin-Sync AI is a modern, full-stack web application designed to help users take control of their finances. It provides a secure and intuitive platform for tracking daily expenses, visualizing spending habits, and receiving intelligent, AI-driven advice to improve money management skills.
 
-**URL**: https://lovable.dev/projects/47e8bf4f-1799-4290-8a43-1e05e478683a
+[➡️ Live Demo Link Here] (Add your deployed app link here)
 
-## How can I edit this code?
+✨ Key Features
+Secure Authentication: JWT-based authentication ensures user data is private and secure.
 
-There are several ways of editing your application.
+Intuitive Dashboard: Visualize your spending with interactive charts and graphs for clear insights.
 
-**Use Lovable**
+Expense Logging: Easily add, edit, and delete your daily expenses with categories and descriptions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/47e8bf4f-1799-4290-8a43-1e05e478683a) and start prompting.
+AI-Powered Insights: Get personalized tips and advice based on your spending patterns.
 
-Changes made via Lovable will be committed automatically to this repo.
+Indian Tax Estimator: Calculate your estimated income tax liability based on the latest Indian tax slabs.
 
-**Use your preferred IDE**
+Admin Panel: A role-protected dashboard for administrators to manage users.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Personalization: Customize your experience with light/dark themes and language preferences.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📸 Screenshots
+(Add a few screenshots of your application here. For example: the login page, the main dashboard, and the settings page.)
 
-Follow these steps:
+Login Page
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Dashboard View
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛠️ Technology Stack
+Category
 
-**Use GitHub Codespaces**
+Technology
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Frontend
 
-## What technologies are used for this project?
+React, React Router, Axios, Tailwind CSS
 
-This project is built with:
+Backend
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Node.js, Express.js
 
-## How can I deploy this project?
+Database
 
-Simply open [Lovable](https://lovable.dev/projects/47e8bf4f-1799-4290-8a43-1e05e478683a) and click on Share -> Publish.
+MySQL
 
-## Can I connect a custom domain to my Lovable project?
+Security
 
-Yes, you can!
+JSON Web Tokens (JWT), bcrypt
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🚀 Getting Started
+Follow these instructions to set up and run the project on your local machine.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Prerequisites
+Node.js (v16 or newer)
+
+npm (v8 or newer)
+
+MySQL Server
+
+Installation & Setup
+Clone the repository:
+
+git clone [https://github.com/anandhakrishnan324/fin-sync-ai-09.git](https://github.com/anandhakrishnan324/fin-sync-ai-09.git)
+cd fin-sync-ai-09
+
+Set up the Backend Server:
+
+# Navigate to the server directory
+cd server
+
+# Install dependencies
+npm install
+
+# Create the environment file from the example
+cp .env.example .env
+
+Open the newly created .env file and fill in your MySQL database credentials and a strong JWT_SECRET.
+
+Set up the Database:
+
+Start your MySQL server.
+
+Create a new database with the name you specified in your .env file (e.g., finsync_db).
+
+Run the table creation scripts located in your project to set up the users, expenses, and user_settings tables. (You can add a link to your SQL schema file here if you have one).
+
+Set up the Frontend Client:
+
+# Navigate to the client directory from the root folder
+cd ../client
+
+# Install dependencies
+npm install
+
+Running the Application
+You will need to run the backend and frontend servers in separate terminals.
+
+Start the Backend Server:
+
+# In the /server directory
+npm start
+
+The server will start, typically on http://localhost:3001.
+
+Start the Frontend Client:
+
+# In the /client directory
+npm start
+
+The React development server will launch, and the application will open in your browser, usually at http://localhost:3000.
+
+👤 Author
+Anandhakrishnan
+
+GitHub: @anandhakrishnan324
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
