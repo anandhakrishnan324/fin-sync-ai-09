@@ -76,7 +76,7 @@ const Settings = () => {
 
   const handleLanguageChange = (value: string) => {
     setLanguage(value as "en" | "hi");
-    updateSettings({ language: value });
+    updateSettings({ language: value as "en" | "hi" });
   };
 
   const handleSendMessage = async (e: React.FormEvent) => {
