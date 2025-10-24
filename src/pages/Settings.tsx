@@ -169,9 +169,9 @@ const Settings = () => {
             Contact Us
           </CardTitle>
           <CardDescription>
-            For support or inquiries, please contact our developer team at{" "}
-            <a href="https://lovable.ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-              lovable.ai
+            For support or inquiries, please contact us at{" "}
+            <a href="mailto:wecanthelpyou@gmail.com" className="text-primary hover:underline">
+              wecanthelpyou@gmail.com
             </a>
           </CardDescription>
         </CardHeader>
